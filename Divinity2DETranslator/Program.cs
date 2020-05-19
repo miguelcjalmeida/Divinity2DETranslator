@@ -25,12 +25,16 @@ namespace Divinity2DETranslator
             var translator = new Translator();
             var localizationManager = new DivinityLocalizationTranslator(translator, document);
             var manualTranslationsApplier = new ManualTranslationsApplier(translator, manualTranslations, document);
+            var fixer = new GeneralTranslationMistakesFixer(document);
             
             Console.WriteLine("Translating...");    
             await localizationManager.TranslateAll(() => loader.Save(outputPath, document));
             
             Console.WriteLine("Applying manual translations...");  
             await manualTranslationsApplier.Apply(() => loader.Save(outputPath, document));
+            
+            Console.WriteLine("Fixing general translation mistakes");
+            fixer.FixAll();
             
             loader.Save(outputPath, document);
             Console.WriteLine("Finished...");
