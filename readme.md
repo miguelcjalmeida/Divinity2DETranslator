@@ -30,7 +30,7 @@ This translation is compatible with the game version: **v.3.6.44.4046**. Be advi
 4) Try opening the game. If needed, delete the file *'<divinity path>/Data/Localization/English.pak'*
 
 ## Download
-[Translation v1.0](https://github.com/miguelcjalmeida/Divinity2DETranslator/blob/master/Divinity2DETranslator/Assets/Translated/english.zip?raw=true) - Current version
+[Translation v1.0.1](https://github.com/miguelcjalmeida/Divinity2DETranslator/blob/master/Divinity2DETranslator/Assets/Translated/english.zip?raw=true) - Current version
 
 ## Credits
 Thanks [Traduz O Jogo](https://www.facebook.com/traduzojogo/) for the great community effort into providing portuguese translations for all players that need it.
