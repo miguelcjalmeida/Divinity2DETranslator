@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Xml;
 
 namespace Divinity2DETranslator
@@ -14,8 +15,15 @@ namespace Divinity2DETranslator
 
         public void Save(string filepath, XmlDocument document)
         {
-            Directory.CreateDirectory(Path.GetDirectoryName(filepath));
-            document.Save(filepath);
+            try 
+            {
+                Directory.CreateDirectory(Path.GetDirectoryName(filepath));
+                document.Save(filepath);
+            } 
+            catch (Exception)
+            {
+                Console.WriteLine("Failed at saving document");
+            }
         }
     }
 }

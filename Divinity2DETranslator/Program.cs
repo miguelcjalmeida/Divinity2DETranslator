@@ -11,7 +11,7 @@ namespace Divinity2DETranslator
             var workingDirectory = Environment.CurrentDirectory;
             var projectDirectory = Directory.GetParent(workingDirectory).Parent?.Parent?.FullName;
             var outputPath = $"{projectDirectory}/Output/english.xml";
-            var inputPath = $"{projectDirectory}/Assets/ptbr.xml";
+            var inputPath = $"{projectDirectory}/Assets/english.xml";
             var manualTranslationsPath = $"{projectDirectory}/Assets/manual_translations.xml";
             
             StartApp(inputPath, outputPath, manualTranslationsPath).Wait();
@@ -27,10 +27,11 @@ namespace Divinity2DETranslator
             var manualTranslationsApplier = new ManualTranslationsApplier(translator, manualTranslations, document);
             
             Console.WriteLine("Translating...");    
-            // await localizationManager.TranslateAll(() => loader.Save(outputPath, document));
+            await localizationManager.TranslateAll(() => loader.Save(outputPath, document));
             
             Console.WriteLine("Applying manual translations...");  
             await manualTranslationsApplier.Apply(() => loader.Save(outputPath, document));
+            
             loader.Save(outputPath, document);
             Console.WriteLine("Finished...");
         }
