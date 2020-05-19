@@ -4,6 +4,9 @@ This project translates almost the entire game to portuguese keeping untouched t
 
 This translation is compatible with the game version: **v.3.6.44.4046**. Be advised that further versions compability is not guaranteed. 
 
+## Download
+[Translation v1.0](https://github.com/miguelcjalmeida/Divinity2DETranslator/blob/master/Divinity2DETranslator/Assets/Translated/english.zip?raw=true)
+
 ## Installation
 - Extract the localization file 'english.xml' from divinity2/english.pak with the [Export Tool](https://drive.google.com/open?id=0B3R5i4ne8pTreUVTQ1VCZHhGNnc).
 1) extract export tool files
@@ -16,7 +19,7 @@ This translation is compatible with the game version: **v.3.6.44.4046**. Be advi
 8) Close the ConverterApp
 9) open the folder divinity2/Data/Localization/English
 
-- Replace the just extracted english.xml with the translated one (download here).
+- Replace the just extracted english.xml with the translated one ([download here](https://github.com/miguelcjalmeida/Divinity2DETranslator/blob/master/Divinity2DETranslator/Assets/Translated/english.zip?raw=true)).
 
 - After all, make sure you have following game folder structure: 
 ```
