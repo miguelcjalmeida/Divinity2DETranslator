@@ -6,7 +6,7 @@ This translation is compatible with the game version: **v.3.6.44.4046**. Be advi
 
 ## Installation
 - Extract the localization file 'english.xml' from divinity2/english.pak with the [Export Tool](https://drive.google.com/open?id=0B3R5i4ne8pTreUVTQ1VCZHhGNnc).
-1) extract export tool files
+1) extract the ExportTool-v1.8.4 to a folder
 2) open ConverterApp.exe
 3) click in the top 'game' dropdown and select 'Divinity: Original sin 2' 
 4) select tab 'PAK/LSV Tools'
