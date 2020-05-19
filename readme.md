@@ -5,34 +5,36 @@ This project translates almost the entire game to portuguese keeping untouched t
 This translation is compatible with the game version: **v.3.6.44.4046**. Be advised that further versions compability is not guaranteed. 
 
 ## Installation
-- Extract the localization file 'english.xml' from divinity2/english.pak with the [Export Tool](https://drive.google.com/open?id=0B3R5i4ne8pTreUVTQ1VCZHhGNnc).
-1) extract the ExportTool-v1.8.4 to a folder
-2) open ConverterApp.exe
-3) click in the top 'game' dropdown and select 'Divinity: Original sin 2' 
-4) select tab 'PAK/LSV Tools'
-5) in 'Package Path' select the file 'english.pak' from divinity2/Data/Localization
-6) in 'Destination Path' select the following folder: divinity2/Data/Localization
-7) Click on the 'Extract Package' button (make sure not to click on the wrong one)
-8) Close the ConverterApp
-9) open the folder divinity2/Data/Localization/English
+1) Extract the localization files from *'<divinity path>/Data/Localization/english.pak'* with the [Export Tool](https://drive.google.com/open?id=0B3R5i4ne8pTreUVTQ1VCZHhGNnc).
+- extract the ExportTool-v1.8.4 to a folder
+- open ConverterApp.exe
+- click on the top dropdown 'game' and select 'Divinity: Original sin 2' 
+- select the tab 'PAK/LSV Tools'
+- in 'Package Path', select the file *'<divinity path>/Data/Localization/english.pak'*
+- in 'Destination Path', select the folder: *'<divinity path>/Data/'*
+- Click on the 'Extract Package' button (make sure not to click on the wrong one)
+- Close the ConverterApp.exe
+- open the folder *'<divinity path>/Data/Localization/English'*
 
-- Replace the just extracted english.xml with the translated one ([download here](https://github.com/miguelcjalmeida/Divinity2DETranslator/blob/master/Divinity2DETranslator/Assets/Translated/english.zip?raw=true)).
+2) Replace the just extracted *'english.xml'* with the translated one ([download here](https://github.com/miguelcjalmeida/Divinity2DETranslator/blob/master/Divinity2DETranslator/Assets/Translated/english.zip?raw=true)).
 
-- After all, make sure you have following game folder structure: 
+3) After all, make sure you have following game folder structure: 
 ```
-divinity2/Data/Localization
+<divinity path>/Data/Localization
   |_English
     |_english.xml (replaced one)
     |_language.lsx
     |_...
 ```
 
+4) Try opening the game. If needed delete the file *'<divinity path>/Data/Localization/English.pak'*
+
 ## Download
 [Translation v1.0](https://github.com/miguelcjalmeida/Divinity2DETranslator/blob/master/Divinity2DETranslator/Assets/Translated/english.zip?raw=true) - Current version
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Credits
 - [Traduz O Jogo](https://www.facebook.com/traduzojogo/) for providing translations
 - Mikael for testing
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

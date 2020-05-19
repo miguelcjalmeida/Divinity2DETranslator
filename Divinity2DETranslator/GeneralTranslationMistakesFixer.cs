@@ -24,8 +24,9 @@ namespace Divinity2DETranslator
 
         private void FixContent(XmlNode content)
         {
-            content.InnerText = content.InnerText?.Replace("[Traduzir", "[Translate")
-                .Replace("Traduzido por ", "Traduzido por miguelcjalmeida e ");
+            content.InnerText = content.InnerText?
+                .Replace("[Traduzir", "[Translate")
+                .Replace("Traduzido por Agência Luma", "Traduzido por Agência Luma e miguelcjalmeida");
         }
     }
 }
