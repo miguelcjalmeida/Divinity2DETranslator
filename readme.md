@@ -27,7 +27,7 @@ This translation is compatible with the game version: **v.3.6.44.4046**. Be advi
     |_...
 ```
 
-4) Try opening the game. If needed delete the file *'<divinity path>/Data/Localization/English.pak'*
+4) Try opening the game. If needed, delete the file *'<divinity path>/Data/Localization/English.pak'*
 
 ## Download
 [Translation v1.0](https://github.com/miguelcjalmeida/Divinity2DETranslator/blob/master/Divinity2DETranslator/Assets/Translated/english.zip?raw=true) - Current version
