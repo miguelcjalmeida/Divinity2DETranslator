@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divinity2DETranslator", "Divinity2DETranslator\Divinity2DETranslator.csproj", "{1C9B21AC-7186-46F2-8D35-7FBEC6C6E7F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divinity2DETranslator.Tests", "Divinity2DETranslator.Tests\Divinity2DETranslator.Tests.csproj", "{8859B743-3F7E-4561-8E63-3468F114B910}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{1C9B21AC-7186-46F2-8D35-7FBEC6C6E7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C9B21AC-7186-46F2-8D35-7FBEC6C6E7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C9B21AC-7186-46F2-8D35-7FBEC6C6E7F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8859B743-3F7E-4561-8E63-3468F114B910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8859B743-3F7E-4561-8E63-3468F114B910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8859B743-3F7E-4561-8E63-3468F114B910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8859B743-3F7E-4561-8E63-3468F114B910}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

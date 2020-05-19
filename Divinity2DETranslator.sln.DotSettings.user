@@ -1,2 +1,12 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=37988723_002D459b_002D4281_002Db728_002D43192ecc8078/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Length_should_be_the_same" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::8859B743-3F7E-4561-8E63-3468F114B910::.NETCoreApp,Version=v3.1::Divinity2DETranslator.Tests.Acceptance.TranslationTagUntouchedTests.Length_should_be_the_same&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::8859B743-3F7E-4561-8E63-3468F114B910::.NETCoreApp,Version=v3.1::Divinity2DETranslator.Tests.Acceptance.TranslationTagUntouchedTests.Tags_should_be_untouched_after_translation&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=contentuid/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
