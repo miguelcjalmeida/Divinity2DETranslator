@@ -34,7 +34,6 @@ This translation is compatible with the game version: **v.3.6.44.4046**. Be advi
 
 ## Credits
 - [Traduz O Jogo](https://www.facebook.com/traduzojogo/) for providing translations
-- Mikael for testing
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
