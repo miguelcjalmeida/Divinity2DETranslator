@@ -20,6 +20,15 @@ namespace Divinity2DETranslator
                 return detection.Language == _sourceLanguage;
             });
         }
+        
+        public async Task<bool> IsInPortuguese(string text)
+        {
+            return await TryFewTimes(async () =>
+            {
+                var detection = await _client.DetectLanguageAsync(text);
+                return detection.Language == _targetLanguage;
+            });
+        }
 
         public async Task<string> Translate(string englishText)
         {

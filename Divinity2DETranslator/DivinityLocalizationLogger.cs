@@ -19,6 +19,6 @@ namespace Divinity2DETranslator
             PrintLog();
         }
 
-        private void PrintLog() => Console.WriteLine($"translation done {_done}/{_totalTranslations} ({_doneRate}%)");
+        private void PrintLog() => Console.WriteLine($"status {_done}/{_totalTranslations} ({_doneRate}%)");
     }
 }

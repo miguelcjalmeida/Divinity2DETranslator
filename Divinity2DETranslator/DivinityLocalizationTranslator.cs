@@ -22,7 +22,6 @@ namespace Divinity2DETranslator
         {
             var contents = _document.SelectNodes("contentList/content")
                 .Cast<XmlNode>()
-                .Skip((20000))
                 .ToList();
             
             var logger = new DivinityLocalizationLogger(contents.Count);
