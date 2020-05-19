@@ -4,6 +4,8 @@ This project translates almost the entire game to portuguese keeping untouched t
 
 This translation is compatible with the game version: **v.3.6.44.4046**. Be advised that further versions compability is not guaranteed. 
 
+The community translation version from [Traduz O Jogo](https://www.facebook.com/traduzojogo/) used by this project is '[02-05-2020-BR_EN](https://drive.google.com/drive/u/0/folders/0B3R5i4ne8pTrZGNGSkFEWlhDYmc)'.
+
 ## Installation
 1) Extract the localization files from *'<divinity path>/Data/Localization/english.pak'* with the [Export Tool](https://drive.google.com/open?id=0B3R5i4ne8pTreUVTQ1VCZHhGNnc).
 - extract the ExportTool-v1.8.4 to a folder
