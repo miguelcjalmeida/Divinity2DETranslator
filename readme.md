@@ -33,7 +33,7 @@ This translation is compatible with the game version: **v.3.6.44.4046**. Be advi
 [Translation v1.0](https://github.com/miguelcjalmeida/Divinity2DETranslator/blob/master/Divinity2DETranslator/Assets/Translated/english.zip?raw=true) - Current version
 
 ## Credits
-- [Traduz O Jogo](https://www.facebook.com/traduzojogo/) for providing translations
+Thanks [Traduz O Jogo](https://www.facebook.com/traduzojogo/) for the great community effort into providing portuguese translations for all players that need it.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
