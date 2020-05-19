@@ -35,7 +35,7 @@ The community translation version from [Traduz O Jogo](https://www.facebook.com/
 [Translation v1.0.1](https://github.com/miguelcjalmeida/Divinity2DETranslator/blob/master/Divinity2DETranslator/Assets/Translated/english.zip?raw=true) - Current version
 
 ## Credits
-Thanks [Traduz O Jogo](https://www.facebook.com/traduzojogo/) for the great community effort into providing portuguese translations for all players that need it.
+Thanks [Traduz O Jogo](https://www.facebook.com/traduzojogo/) and its community for the great effort into providing portuguese translations for all players that need it.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
