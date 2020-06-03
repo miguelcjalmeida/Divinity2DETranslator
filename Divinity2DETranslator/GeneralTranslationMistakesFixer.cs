@@ -53,6 +53,18 @@ namespace Divinity2DETranslator
             UpdateContentText("hfb851683g738cg4b48g8fd8g478d375c030a", (x) => "Encarnado aprende uma habilidade de teletransporte e uma habilidade para trocar de lugar com seu mestre. Aumenta o dano em [1]%.");
             UpdateContentText("h25fae2cfgb16eg452fg991bg1185acdc5cda", (x) => x.Replace("[IE_Pause]", "[IE_ToggleInGameMenu]"));
             UpdateContentText("h372b47d2gc0b9g4838g9ae7g9350cf91923c", (x) => "[FORA-DA-LEI]");
+            UpdateContentText("h1781d4bfg2094g4661g860bg6aa875a0e90b", (x) => "Um flash surpresa que pode infligir cegos em um raio. Cria uma pequena poça de óleo com um raio [2].");
+            UpdateContentText("", (x) => "");
+            UpdateContentText("", (x) => "");
+            UpdateContentText("", (x) => "");
+            UpdateContentText("", (x) => "");
+            UpdateContentText("", (x) => "");
+            UpdateContentText("", (x) => "");
+            UpdateContentText("", (x) => "");
+            UpdateContentText("", (x) => "");
+            UpdateContentText("", (x) => "");
+            UpdateContentText("", (x) => "");
+            UpdateContentText("", (x) => "");
         }
 
         private void FixContent(XmlNode content)

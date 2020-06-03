@@ -2,7 +2,7 @@
 
 This project translates almost the entire game to portuguese keeping untouched the game tags. It makes use of the translations by the community [Traduz O Jogo](https://www.facebook.com/traduzojogo/) and Google Translator. 
 
-This translation is compatible with the game version: **v.3.6.44.4046**. Be advised that further versions compability is not guaranteed. 
+This translation is compatible with the game version: **v.3.6.58.1306**. Be advised that further versions compability is not guaranteed, but will likely work. 
 
 The community translation version from [Traduz O Jogo](https://www.facebook.com/traduzojogo/) used by this project is '[02-05-2020-BR_EN](https://drive.google.com/drive/u/0/folders/0B3R5i4ne8pTrZGNGSkFEWlhDYmc)'.
 

@@ -20,7 +20,7 @@ namespace Divinity2DETranslator.Tests.Acceptance
             var workingDirectory = Environment.CurrentDirectory;
             var projectDirectory = Directory.GetParent(workingDirectory).Parent?.Parent?.FullName;
             var originPath = $"{projectDirectory}/../Divinity2DETranslator/Assets/english.xml";
-            var translationPath = $"{projectDirectory}/../Divinity2DETranslator/Output/english.xml";
+            var translationPath = $"{projectDirectory}/../Divinity2DETranslator/Output/update_fixed.xml";
             var xmlLoader = new XmlLoader();
 
             _origin = xmlLoader.Load(originPath)
@@ -29,9 +29,14 @@ namespace Divinity2DETranslator.Tests.Acceptance
                 .OrderBy(x => x.Attributes["contentuid"].Value)
                 .ToList();
             
-            _translation = xmlLoader.Load(translationPath)
+            var allTranslation = xmlLoader.Load(translationPath)
                 .SelectNodes("contentList/content")
                 .Cast<XmlNode>()
+                .OrderBy(x => x.Attributes["contentuid"].Value)
+                .ToList();
+
+            _translation = allTranslation
+                .Intersect(_origin, new TranslationNodeComparer())
                 .OrderBy(x => x.Attributes["contentuid"].Value)
                 .ToList();
         }
